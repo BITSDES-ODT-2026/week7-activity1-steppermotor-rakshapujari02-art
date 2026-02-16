@@ -8,33 +8,57 @@ IN4 = Pin(18, Pin.OUT)
 
 while True:
 
-    IN1.value(1); IN2.value(0); IN3.value(0); IN4.value(0)
+    IN1.value(1)
+    IN2.value(0)
+    IN3.value(0)
+    IN4.value(0)
     time.sleep(0.008)
 
 
-    IN1.value(1); IN2.value(1); IN3.value(0); IN4.value(0)
+    IN1.value(1)
+    IN2.value(1)
+    IN3.value(0)
+    IN4.value(0)
     time.sleep(0.008)
 
 
-    IN1.value(0); IN2.value(1); IN3.value(0); IN4.value(0)
+    IN1.value(0)
+    IN2.value(1)
+    IN3.value(0)
+    IN4.value(0)
     time.sleep(0.008)
 
 
-    IN1.value(0); IN2.value(1); IN3.value(1); IN4.value(0)
+    IN1.value(0)
+    IN2.value(1)
+    IN3.value(1)
+    IN4.value(0)
     time.sleep(0.008)
 
   
-    IN1.value(0); IN2.value(0); IN3.value(1); IN4.value(0)
+    IN1.value(0)
+    IN2.value(0)
+    IN3.value(1)
+    IN4.value(0)
     time.sleep(0.008)
 
-    IN1.value(0); IN2.value(0); IN3.value(1); IN4.value(1)
+    IN1.value(0)
+    IN2.value(0)
+    IN3.value(1)
+    IN4.value(1)
     time.sleep(0.008)
 
     
-    IN1.value(0); IN2.value(0); IN3.value(0); IN4.value(1)
+    IN1.value(0)
+    IN2.value(0)
+    IN3.value(0)
+    IN4.value(1)
     time.sleep(0.008)
 
   
-    IN1.value(1); IN2.value(0); IN3.value(0); IN4.value(1)
+    IN1.value(1)
+    IN2.value(0)
+    IN3.value(0)
+    IN4.value(1)
     time.sleep(0.008)
 
